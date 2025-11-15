@@ -20,12 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
         boardElement.innerHTML = '';
         for (let i = 0; i < 81; i++) {
             const cell = document.createElement('div');
-            const row = Math.floor(i / 9);
-            const col = i % 9;
             cell.classList.add('cell');
             cell.dataset.index = i;
-            cell.dataset.row = row;
-            cell.dataset.col = col;
             boardElement.appendChild(cell);
         }
     }

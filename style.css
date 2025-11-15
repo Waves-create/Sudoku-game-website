@@ -29,16 +29,6 @@ h1 {
 .cell {
     border: 1px solid #ccc;
     text-align: center;
-}
-
-.cell[data-col="2"],
-.cell[data-col="5"] {
-    border-right: 2px solid #333;
-}
-
-.cell[data-row="2"],
-.cell[data-row="5"] {
-    border-bottom: 2px solid #333;
     font-size: min(4vw, 24px);
     box-sizing: border-box;
     position: relative;
